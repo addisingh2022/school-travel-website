@@ -25,7 +25,7 @@ export default function ContactPage() {
           </div>
           <div className="space-y-4 text-slate-700">
             <p>
-              <span className="font-semibold text-slate-900">Email:</span> Beyond4wallseducation@gmail.com
+              <span className="font-semibold text-slate-900">Email:</span> info@beyond4walls.in
             </p>
             
             <p>
