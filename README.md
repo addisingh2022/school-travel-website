@@ -54,3 +54,4 @@ npm run start
 - The contact form posts to `/api/contact` and returns JSON.
 - Replace placeholder images in `/public/images` with production-quality visuals.
 - Update `metadataBase` in `app/layout.tsx` with the final domain.
+# school-travel-website
