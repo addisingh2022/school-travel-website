@@ -56,3 +56,4 @@ npm run start
 - Update `metadataBase` in `app/layout.tsx` with the final domain.
 # school-travel-website
 # school-travel-website
+# school-travel-website
