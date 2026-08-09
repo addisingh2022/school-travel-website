@@ -25,6 +25,9 @@ export default function ContactPage() {
           </div>
           <div className="space-y-4 text-slate-700">
             <p>
+              <span className="font-semibold text-slate-900">Address:</span> Beyond4walls Education, Block 1, Mini Market, Opposite Moti Nagar Metro Station, New Delhi, Delhi, 110015
+             </p>
+            <p>
               <span className="font-semibold text-slate-900">Email:</span> info@beyond4walls.in
             </p>
             
