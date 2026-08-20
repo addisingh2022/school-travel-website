@@ -3,6 +3,7 @@ import SectionHeading from '../components/SectionHeading';
 import ExperienceCard from '../components/ExperienceCard';
 import JourneyCard from '../components/JourneyCard';
 
+
 const cards = [
   { title: 'Learn by Exploring', description: 'Real places, real questions and learning that comes from discovery.' },
   { title: 'Connect Curriculum to Reality', description: 'Journeys built to reinforce classroom concepts through hands-on experiences.' },
@@ -20,9 +21,9 @@ const experiences = [
 ];
 
 const journeys = [
-  { title: 'Delhi: History Beyond Textbooks', ageGroup: 'Class 6–10', duration: '4 days', theme: 'Heritage, history, civic learning' },
-  { title: 'Jaipur: Culture, Architecture & Heritage', ageGroup: 'Class 7–11', duration: '3 days', theme: 'Culture, crafts, architecture' },
-  { title: 'Bengaluru: Innovation & Future Careers', ageGroup: 'Class 9–12', duration: '4 days', theme: 'Innovation, careers, technology' },
+  { title: 'NASA SpaceQuest USA', duration: '11 Days / 9 Nights', theme: 'STEM, Space, Adventure' },
+  { title: 'Dubai FutureQuest', duration: '5 Days / 4 Nights', theme: 'Architecture, Sustainability, Innovation' },
+  { title: 'Europe Discovery Expedition', duration: '9 Days / 7 Nights', theme: 'History, Culture, Art' },
 ];
 
 export default function HomePage() {
@@ -142,7 +143,7 @@ export default function HomePage() {
           </div>
           <div className="grid gap-6 md:grid-cols-3">
             {journeys.map((journey) => (
-              <JourneyCard key={journey.title} title={journey.title} ageGroup={journey.ageGroup} duration={journey.duration} theme={journey.theme} />
+              <JourneyCard key={journey.title} title={journey.title} duration={journey.duration} theme={journey.theme} />
             ))}
           </div>
         </div>

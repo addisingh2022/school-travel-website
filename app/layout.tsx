@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 export const metadata: Metadata = {
   title: 'Beyond4Walls | Learning Beyond the Classroom',
   description: 'Curriculum-connected educational journeys and experiential learning programs for schools.',
-  metadataBase: new URL('https://beyond4walls.example'),
+  metadataBase: new URL('https://beyond4walls.in'),
   openGraph: {
     title: 'Beyond4Walls | Learning Beyond the Classroom',
     description: 'Curriculum-connected educational journeys and experiential learning programs for schools.',
